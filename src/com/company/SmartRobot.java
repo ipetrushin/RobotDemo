@@ -5,6 +5,7 @@ public class SmartRobot extends Robot {
     SmartRobot() {
         super(0, 0, "UP");
     }
+    // TODO: Реализовать метод moveToXY
     public void moveToXY(int toX, int toY) {
         // использовать вызовы методов getX, getY, getDirection,
         // stepForward, turnLeft, turnRight
